@@ -9,7 +9,7 @@ const BookSelect = (props) => {
     }
 
     return (
-        <select onChange={(e) => handleBookSelect(e)} defaultValue={book.shelf || 'none'} >
+        <select  defaultValue={book.shelf || 'none'} onChange={(e) => handleBookSelect(e)} >
             <option value="move" disabled>Move to...</option>
             <option value="currentlyReading">Currently Reading</option>
             <option value="wantToRead">Want to Read</option>
