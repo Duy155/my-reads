@@ -1,10 +1,8 @@
 import React from "react";
-import BookLists from "../../Components/BookLists"
+import BookLists from "../../Components/BookLists";
 
-const indexHome = () => {
-    return (
-        <BookLists/>
-    );
-}
+const HomeIndex = () => {
+  return <BookLists />;
+};
 
-export default indexHome;
+export default HomeIndex;

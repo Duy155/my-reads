@@ -46,7 +46,7 @@ const BookLists = () => {
   /**
    * @description This function is used to process selected shelf books
    * @param {Object} book - Books want to update the bookshelf
-   * @param {String} shelf - The name of the bookshelf you want to update
+   * @param {String} bookShelf - The name of the bookshelf you want to update
    */
   const bookSelect = useCallback((book, bookShelf) => {
     update(book, bookShelf).then(() => {
